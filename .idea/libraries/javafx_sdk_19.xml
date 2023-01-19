@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="javafx-sdk-19">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-19/javafx.base" />
+      <root url="file://$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-19/javafx.controls" />
+      <root url="file://$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-19/javafx.fxml" />
+      <root url="file://$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-19/javafx.graphics" />
+      <root url="file://$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-19/javafx.media" />
+      <root url="file://$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-19/javafx.swing" />
+      <root url="file://$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-19/javafx.web" />
+      <root url="file://$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-19" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-19" recursive="false" type="SOURCES" />
+  </library>
+</component>

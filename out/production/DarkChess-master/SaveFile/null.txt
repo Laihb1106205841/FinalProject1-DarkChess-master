@@ -1,0 +1,57 @@
+null null null null 
+null null null null 
+null null 士 帅 
+仕 null null 俥 
+null null null 兵 
+null null null null 
+null null null null 
+null null null 将 
+
+null null null null 
+null null null null 
+null null 莫德尔 曼施坦因 
+马利诺夫斯基 null null 罗科索夫斯基 
+null null null 赫鲁晓夫 
+null null null null 
+null null null null 
+null null null 朱可夫 
+
+0000
+0000
+0067
+6004
+0001
+0000
+0000
+0007
+
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+
+null
+[炮, 傌, 俥, 炮, 兵, 相, 兵, 傌, 相, 兵, 兵, 仕]
+[卒, 馬, 卒, 砲, 卒, 卒, 砲, 卒, 馬, 象, 車, 車, 象, 士]
+[科涅夫, 梅列茨科夫, 瓦图京, 戈沃罗夫, 布琼尼, 沙波什尼科夫, 崔可夫, 巴格拉米扬, 库兹涅佐夫, 巴季茨基, 铁木辛哥, 华西列夫斯基]
+[克莱斯特, 博克, 维茨勒本, 里布, 魏克斯, 保卢斯, 李斯特, 屈希勒尔, 克鲁格, 布劳希奇, 隆美尔, 古德里安, 舍尔纳, 龙德施泰德]
+RED
+RED
+55
+49
+0
+F
+F
+NONE NONE NONE NONE 
+NONE NONE NONE NONE 
+NONE NONE BLACK BLACK 
+RED NONE NONE RED 
+NONE NONE NONE RED 
+NONE NONE NONE NONE 
+NONE NONE NONE NONE 
+NONE NONE NONE RED 
+

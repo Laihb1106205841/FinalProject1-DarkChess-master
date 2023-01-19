@@ -1,0 +1,2 @@
+view.Chessboard[,70,70,282x560,alignmentX=0.0,alignmentY=0.0,
+border=,flags=0,maximumSize=,minimumSize=,preferredSize=]

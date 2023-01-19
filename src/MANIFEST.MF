@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Main-Class: view.Generator2
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Version: 1.06
+Created-By: 1.4.2 (Sun Microsystems Inc.)
+MIDlet-Vendor: B&H
+MicroEdition-Profile: MIDP-1.0
+MIDlet-1: txhpy15, , JavaBook
+MIDlet-Name: DarkChess-master
+MIDlet-Info-URL: Http://www.bigwater.org
+MIDlet-Jar-Size: 50413239
+MIDlet-Jar-URL: simple.jar
