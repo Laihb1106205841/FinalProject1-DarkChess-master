@@ -1,7 +1,9 @@
 package view;
 
-import javafx.application.Application;//出问题处！
+//出问题处！
+
 import javafx.scene.Group;
+import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;

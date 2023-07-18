@@ -47,9 +47,9 @@ class Music {
     public static void playMusic() {
         try {
             //这里面放 绝对路径，音频必须是wav格式，用音频转换软件 把mp3 转成wav格式
-            File musicPath = new File("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\国产特摄剧《战狠铠甲》合体集锦   豆瓣评分9.9  （任何邪恶终将绳之以法） - 1.国产特摄剧《战狠铠甲》合体集锦   豆瓣评分9.9(Av514443234,P1)_1.WAV");
+            File musicPath = new File("src\\ADDbyGB\\国产特摄剧《战狠铠甲》合体集锦   豆瓣评分9.9  （任何邪恶终将绳之以法） - 1.国产特摄剧《战狠铠甲》合体集锦   豆瓣评分9.9(Av514443234,P1)_1.WAV");
 
-            File musicPath2 =new File("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\伟大的卫国战争-One-Minute-Of-Proud.wav");
+            File musicPath2 =new File("src/ADDbyGB/伟大的卫国战争-One-Minute-Of-Proud.wav");
 
             if (musicPath2.exists()) {
                 AudioInputStream audioInput = AudioSystem.getAudioInputStream(musicPath2);
@@ -77,9 +77,9 @@ class Music {
     public static void playMusic2() {
         try {
             //这里面放 绝对路径，音频必须是wav格式，用音频转换软件 把mp3 转成wav格式
-            File musicPath = new File("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\伟大的卫国战争-One-Minute-Of-Proud.wav");
+            File musicPath = new File("src\\ADDbyGB\\伟大的卫国战争-One-Minute-Of-Proud.wav");
 
-            File musicPath2 =new File("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\伟大的卫国战争-The-teletype.wav");
+            File musicPath2 =new File("src/ADDbyGB/伟大的卫国战争-The-teletype.wav");
 
             if (musicPath2.exists()) {
                 AudioInputStream audioInput = AudioSystem.getAudioInputStream(musicPath2);
@@ -122,9 +122,9 @@ class Music {
             //这里面放 绝对路径，音频必须是wav格式，用音频转换软件 把mp3 转成wav格式
 
 
-            File musicPath = new File("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\国产特摄剧《战狠铠甲》合体集锦   豆瓣评分9.9  （任何邪恶终将绳之以法） - 1.国产特摄剧《战狠铠甲》合体集锦   豆瓣评分9.9(Av514443234,P1)_1.WAV");
+            File musicPath = new File("src\\ADDbyGB\\国产特摄剧《战狠铠甲》合体集锦   豆瓣评分9.9  （任何邪恶终将绳之以法） - 1.国产特摄剧《战狠铠甲》合体集锦   豆瓣评分9.9(Av514443234,P1)_1.WAV");
 
-            File musicPath2 =new File("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\伟大的卫国战争-One-Minute-Of-Proud.wav");
+            File musicPath2 =new File("src\\ADDbyGB\\伟大的卫国战争-One-Minute-Of-Proud.wav");
 
             if (musicPath2.exists()) {
                 AudioInputStream audioInput = AudioSystem.getAudioInputStream(musicPath2);

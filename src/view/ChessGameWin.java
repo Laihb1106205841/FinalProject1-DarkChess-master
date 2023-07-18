@@ -38,10 +38,10 @@ public class ChessGameWin extends JFrame{
     private void addLabel2() {//昊京载入！
           ImageIcon image=new ImageIcon("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\view\\11.jpg");
        if(Objects.equals(Yanse, "德军胜利！")) {
-            image = new ImageIcon("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\德军.jpg");
+            image = new ImageIcon("src/ADDbyGB/Ger.jpg");
        }
        else  {
-          image = new ImageIcon("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\苏军.jpg");
+          image = new ImageIcon("src/ADDbyGB/苏军.jpg");
         }
         JLabel statusLabel2=new JLabel(image);
         statusLabel2.setLayout(null);

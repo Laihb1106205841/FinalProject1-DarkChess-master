@@ -88,7 +88,7 @@ public class Generator2   {
 
         private void addLabel2() {//昊京载入！
           //  ImageIcon image=new ImageIcon("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\view\\11.jpg");
-            ImageIcon image=new ImageIcon("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\R-C.jpg");
+            ImageIcon image=new ImageIcon("src/ADDbyGB/R-C.jpg");
             JLabel statusLabel2=new JLabel(image);
             statusLabel2.setLayout(null);
             statusLabel2.setBounds(0,0,WIDTH,HEIGHT);
@@ -133,7 +133,7 @@ public class Generator2   {
             add(button);
         }
 
-        private void addHelloButton2() { ImageIcon icon = new ImageIcon("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\按钮.jpg");
+        private void addHelloButton2() { ImageIcon icon = new ImageIcon("src/ADDbyGB/按钮.jpg");
 
             JButton button = new JButton("联机对战");
 //            button.addActionListener((e) ->  SwingUtilities.invokeLater(() -> {
@@ -204,7 +204,7 @@ public class Generator2   {
           //              (this, "行棋步骤错误！\n错误代码105");}
 
 
-                List<String> MEssage = gameController.loadGameFromFile("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\SaveFile\\" +
+                List<String> MEssage = gameController.loadGameFromFile("src\\SaveFile\\" +
                         path);
                 if (MEssage != null) {
                     String[][] ChessName = new String[8][4];

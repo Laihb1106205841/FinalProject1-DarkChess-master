@@ -118,7 +118,7 @@ public class GameController {
                 "\n"+Happy+"\n"+Order227+"\n"+Orderpanzer+"\n"+chessColor;
 
 
-        File f=new File("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\SaveFile\\"+name+".txt");//指定文件
+        File f=new File("src\\SaveFile\\"+name+".txt");//指定文件
         FileOutputStream fos= null;//创建输出流fos并以f为参数
         try {
             fos = new FileOutputStream(f);

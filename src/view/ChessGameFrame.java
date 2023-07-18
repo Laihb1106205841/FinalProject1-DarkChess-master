@@ -121,7 +121,7 @@ public class ChessGameFrame extends JFrame {
     }
     private void addLabel2() {//昊京载入！
         //  ImageIcon image=new ImageIcon("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\view\\11.jpg");
-        ImageIcon image=new ImageIcon("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\ADDbyGB\\QQ6.png");
+        ImageIcon image=new ImageIcon("src/ADDbyGB/QQ6.png");
 
         JLabel statusLabel2=new JLabel(image);
         statusLabel2.setLayout(null);
@@ -338,46 +338,53 @@ public class ChessGameFrame extends JFrame {
     }
     private void addHelloButton2() {
         JButton button = new JButton("全球卫星");
-        AtomicReference<Boolean> isKaigua = new AtomicReference<>(false);
-        AtomicInteger k= new AtomicInteger();
+        final int[] isKaigua = {0};
+        AtomicInteger k = new AtomicInteger();
           //  Boolean iskaiguo = false;
         button.addActionListener(e ->
         {
-            if(isKaigua.get()&&k.get()==1){
-                JOptionPane.showMessageDialog(this, "开启战争迷雾！");
-                for (int i = 0; i < 8; i++) {
-                    for(int j=0;j< 4;j++){
-                        //明天问老师
-                        if (!(gameController.getChessboard().getSquareComponents()[i][j] instanceof EmptySlotComponent)) {
-                            gameController.getChessboard().getSquareComponents()[i][j].setReversal(false);
-                            gameController.getChessboard().getSquareComponents()[i][j].repaint();
+            switch (isKaigua[0]) {
+                case 1:
+                    JOptionPane.showMessageDialog(this, "开启战争迷雾！");
+                    for (int i = 0; i < 8; i++) {
+                        for (int j = 0; j < 4; j++) {
+                            //明天问老师
+                            if (!(gameController.getChessboard().getSquareComponents()[i][j] instanceof EmptySlotComponent)) {
+                                gameController.getChessboard().getSquareComponents()[i][j].setReversal(false);
+                                gameController.getChessboard().getSquareComponents()[i][j].repaint();
+                            }
                         }
                     }
-                }
-                isKaigua.set(false);
+                    isKaigua[0] =0;
+                    k.set(0);
+                    break;
 
-            }
 
-            if(!isKaigua.get()&&k.get()==0){
+                case 0:
+                    if (k.get() == 0) {
 
-            JOptionPane.showMessageDialog(this, "伞兵一号卢本伟准备就绪！");
-            for (int i = 0; i < 8; i++) {
-                for(int j=0;j< 4;j++){
-                  //明天问老师
-                    if (!(gameController.getChessboard().getSquareComponents()[i][j] instanceof EmptySlotComponent)) {
-                    gameController.getChessboard().getSquareComponents()[i][j].setReversal(true);
-                    gameController.getChessboard().getSquareComponents()[i][j].repaint();
+                    JOptionPane.showMessageDialog(this, "伞兵一号卢本伟准备就绪！");
+                    for (int i = 0; i < 8; i++) {
+                        for (int j = 0; j < 4; j++) {
+                            //明天问老师
+                            if (!(gameController.getChessboard().getSquareComponents()[i][j] instanceof EmptySlotComponent)) {
+                                gameController.getChessboard().getSquareComponents()[i][j].setReversal(true);
+                                gameController.getChessboard().getSquareComponents()[i][j].repaint();
+                            }
+                        }
                     }
+                    k.set(1);
+                    isKaigua[0] =1;
+                    break;
                 }
             }
-            k.set(1);
-            isKaigua.set(true);}
-
 
 
 
 
         });
+
+
         button.setLocation(WIDTH * 4 / 5, HEIGHT / 10 + 420);
         button.setSize(120, 30);
         button.setFont(new Font("Rockwell", Font.BOLD, 20));
@@ -465,10 +472,10 @@ public class ChessGameFrame extends JFrame {
         button.addActionListener(e -> {
             System.out.println("Click load");
             String path = JOptionPane.showInputDialog(this, "Input name here");
-          List<String> message=  gameController.loadGameFromFile("C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\SaveFile\\"
+          List<String> message=  gameController.loadGameFromFile("src/SaveFile/"
             + path);
 
-            String realPath ="C:\\Users\\11062\\Desktop\\课本\\计算机\\DarkChess-master\\src\\SaveFile\\"+path;
+            String realPath ="src/SaveFile/"+path;
 //                    try {
 //                        List<String> chessData = null;
 //                        try {

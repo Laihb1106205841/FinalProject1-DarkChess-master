@@ -34,7 +34,7 @@ public class Video extends Application {
 //        MediaPlayer mp1 = new MediaPlayer(media1);
 //        mp1.play();
 
-        String videoPath = "file:///d:/Java/Begin.mp4";
+        String videoPath = "file:///D:\\Java\\FinalProject1-DarkChess-master\\src\\ADDbyGB\\Begin.mp4";
         Media media = new Media(videoPath);
         MediaPlayer mediaPlayer = new MediaPlayer(media);
         MediaView mediaView = new MediaView(mediaPlayer);
