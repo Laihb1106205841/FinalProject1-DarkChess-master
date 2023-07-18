@@ -11,10 +11,29 @@ import javafx.scene.media.MediaView;
 import javafx.stage.Stage;
 
 import javax.swing.*;
+import java.io.File;
 
 public class Generator3  extends Application {//extend
+
+    @Override
+    public void start(Stage stage) {
+        String videoPath = "src/ADDbyGB/Begin.mp4";
+        Media media = new Media(new File(videoPath).toURI().toString());
+        MediaPlayer mediaPlayer = new MediaPlayer(media);
+        MediaView mediaView = new MediaView(mediaPlayer);
+
+        Group root = new Group(mediaView);
+        Scene scene = new Scene(root, 852, 480);
+
+        stage.setScene(scene);
+        stage.show();
+
+        mediaPlayer.play();
+    }
+
     public static void main(String[] args) {
-        Video.launch(args);
+
+        DarkChessMaster.launch(args);
         SwingUtilities.invokeLater(() -> {
             Generator2.ChessGameFrame2 mainFrame = new Generator2.ChessGameFrame2(1000, 700);
             mainFrame.setVisible(true);
@@ -53,19 +72,5 @@ public class Generator3  extends Application {//extend
     //java --module-path "C:\Program Files\Java\javafx-sdk-19\lib" --add-modules javafx.controls,javafx.fxml,javafx.media -jar D:\Java\DarkChess-master.jar
 
 
-    @Override
-    public void start(Stage stage) throws Exception {
-        String videoPath = "file:///d:/Java/Begin.mp4";
-        Media media = new Media(videoPath);
-        MediaPlayer mediaPlayer = new MediaPlayer(media);
-        MediaView mediaView = new MediaView(mediaPlayer);
 
-        Group root = new Group(mediaView);
-        Scene scene = new Scene(root, 852, 480);
-
-        stage.setScene(scene);
-        stage.show();
-
-        mediaPlayer.play();
-    }
 }
