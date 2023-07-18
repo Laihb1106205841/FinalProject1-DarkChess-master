@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 import javax.swing.*;
 import java.io.File;
 
+
 public class DarkChessMaster extends Application {
 
     public static void main(String[] args) {

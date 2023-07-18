@@ -67,7 +67,7 @@ public class Generator3  extends Application {//extend
 
     //java -jar --module-path "C:\Program Files\Java\javafx-sdk-19\lib" --add-modules javafx.controls,javafx.fxml C:\Users\11062\Desktop\课本\计算机\DarkChess-master\out\artifacts\DarkChess_jar2\DarkChess_jar2.jar
 
-
+//--module-path "C:\Program Files\Java\javafx-sdk-19\lib" --add-modules javafx.controls,javafx.fxml
     //java --module-path "C:\Program Files\Java\javafx-sdk-19\lib" --add-modules javafx.controls,javafx.fxml,javafx.media -jar DarkChess-master.jar
     //java --module-path "C:\Program Files\Java\javafx-sdk-19\lib" --add-modules javafx.controls,javafx.fxml,javafx.media -jar D:\Java\DarkChess-master.jar
 

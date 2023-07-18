@@ -118,11 +118,7 @@ public class Generator2   {
             addLabel2();//加载战狼
 
 
-//
-
         }
-
-
 
 
         /**
@@ -184,7 +180,7 @@ public class Generator2   {
             add(button);
         }
 
-        private void addHelloButton2() { ImageIcon icon = new ImageIcon("src/ADDbyGB/按钮.jpg");
+        private void addHelloButton2() { ImageIcon icon = new ImageIcon("src\\ADDbyGB\\按钮.jpg");
 
             JButton button = new JButton("联机对战");
 //            button.addActionListener((e) ->  SwingUtilities.invokeLater(() -> {
@@ -225,13 +221,6 @@ public class Generator2   {
             add(button);
 
            // JButton startGame = new JButton();
-
-
-
-
-
-
-
 
 
         }
