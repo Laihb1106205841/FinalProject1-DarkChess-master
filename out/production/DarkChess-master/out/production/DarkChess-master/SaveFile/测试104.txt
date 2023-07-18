@@ -1,0 +1,57 @@
+傌 仕 相 車 
+仕 兵 象 将 
+卒 卒 兵 俥 
+卒 炮 馬 士 
+砲 卒 兵 兵 
+砲 兵 卒 傌 
+帅 士 相 象 
+炮 馬 車 俥 
+
+巴格拉米扬 华西列夫斯基 沙波什尼科夫 隆美尔 
+马利诺夫斯基 赫鲁晓夫 布劳希奇 朱可夫 
+屈希勒尔 克莱斯特 巴季茨基 瓦图京 
+魏克斯 戈沃罗夫 克鲁格 龙德施泰德 
+里布 保卢斯 崔可夫 铁木辛哥 
+李斯特 布琼尼 维茨勒本 梅列茨科夫 
+曼施坦因 莫德尔 库兹涅佐夫 舍尔纳 
+科涅夫 博克 古德里安 罗科索夫斯基 
+
+3654
+6157
+1114
+1236
+2111
+2113
+7655
+2344
+
+FFFF
+FFFF
+FTFF
+FFFT
+FFFT
+TTTF
+TFTT
+FFFF
+
+null
+[]
+[]
+[]
+[]
+
+
+0
+0
+0
+F
+F
+RED RED RED BLACK 
+RED RED BLACK RED 
+BLACK BLACK RED RED 
+BLACK RED BLACK BLACK 
+BLACK BLACK RED RED 
+BLACK RED BLACK RED 
+BLACK BLACK RED BLACK 
+RED BLACK BLACK RED 
+

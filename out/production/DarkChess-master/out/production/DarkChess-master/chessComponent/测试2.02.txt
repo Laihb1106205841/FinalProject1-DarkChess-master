@@ -1,0 +1,48 @@
+象 炮 兵 null 
+null 傌 null 傌 
+砲 null 兵 null 
+null null null 士 
+士 null null null 
+null null null 相 
+砲 仕 null 馬 
+null 卒 null 相 
+
+布劳希奇 戈沃罗夫 巴季茨基 null 
+null 巴格拉米扬 null 梅列茨科夫 
+李斯特 null 崔可夫 null 
+null null null 龙德施泰德 
+莫德尔 null null null 
+null null null 沙波什尼科夫 
+里布 华西列夫斯基 null 博克 
+null 屈希勒尔 null 库兹涅佐夫 
+
+5210
+0303
+2010
+0006
+6000
+0005
+2603
+0105
+
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+
+null
+[仕, 兵, 俥, 俥, 兵, 兵, 炮, 将]
+[車, 帅, 馬, 象, 卒, 卒, 卒, 卒, 車]
+[马利诺夫斯基, 铁木辛哥, 瓦图京, 罗科索夫斯基, 布琼尼, 赫鲁晓夫, 科涅夫, 朱可夫]
+[隆美尔, 曼施坦因, 克鲁格, 舍尔纳, 克莱斯特, 维茨勒本, 保卢斯, 魏克斯, 古德里安]
+BLACK
+BLACK
+苏军：54
+德军：58
+0
+F
+F

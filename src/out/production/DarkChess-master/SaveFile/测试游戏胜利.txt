@@ -1,0 +1,57 @@
+兵 帅 null 炮 
+null 傌 卒 卒 
+仕 兵 士 null 
+卒 null null null 
+null 車 null 傌 
+卒 null null 車 
+砲 null 士 馬 
+炮 null 兵 仕 
+
+崔可夫 曼施坦因 null 戈沃罗夫 
+null 巴格拉米扬 维茨勒本 屈希勒尔 
+马利诺夫斯基 布琼尼 莫德尔 null 
+魏克斯 null null null 
+null 古德里安 null 梅列茨科夫 
+克莱斯特 null null 隆美尔 
+里布 null 龙德施泰德 克鲁格 
+科涅夫 null 赫鲁晓夫 华西列夫斯基 
+
+1702
+0311
+6160
+1000
+0403
+1004
+2063
+2016
+
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+
+null
+[俥, 俥, 兵, 相, 兵, 将, 相]
+[砲, 卒, 象, 象, 馬]
+[罗科索夫斯基, 瓦图京, 巴季茨基, 沙波什尼科夫, 铁木辛哥, 朱可夫, 库兹涅佐夫]
+[李斯特, 保卢斯, 舍尔纳, 布劳希奇, 博克]
+BLACK
+BLACK
+21
+52
+0
+F
+F
+RED BLACK NONE RED 
+NONE RED BLACK BLACK 
+RED RED BLACK NONE 
+BLACK NONE NONE NONE 
+NONE BLACK NONE RED 
+BLACK NONE NONE BLACK 
+BLACK NONE BLACK BLACK 
+RED NONE RED RED 
+

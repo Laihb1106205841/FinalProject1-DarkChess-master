@@ -1,0 +1,57 @@
+null null null null 
+砲 null 砲 null 
+null null 炮 null 
+車 null null 俥 
+帅 null null 炮 
+null null null 将 
+車 null null null 
+null null null 俥 
+
+null null null null 
+里布 null 李斯特 null 
+null null 戈沃罗夫 null 
+隆美尔 null null 罗科索夫斯基 
+曼施坦因 null null 科涅夫 
+null null null 朱可夫 
+古德里安 null null null 
+null null null 瓦图京 
+
+0000
+2020
+0020
+4004
+7002
+0007
+4000
+0004
+
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+TTTT
+
+null
+[相, 兵, 傌, 仕, 仕, 傌, 兵, 相, 兵, 兵, 兵]
+[卒, 卒, 卒, 象, 士, 馬, 卒, 卒, 象, 馬, 士]
+[沙波什尼科夫, 布琼尼, 梅列茨科夫, 马利诺夫斯基, 华西列夫斯基, 巴格拉米扬, 铁木辛哥, 库兹涅佐夫, 赫鲁晓夫, 崔可夫, 巴季茨基]
+[克莱斯特, 保卢斯, 维茨勒本, 布劳希奇, 莫德尔, 博克, 屈希勒尔, 魏克斯, 舍尔纳, 克鲁格, 龙德施泰德]
+BLACK
+BLACK
+45
+45
+0
+F
+F
+NONE NONE NONE NONE 
+BLACK NONE BLACK NONE 
+NONE NONE RED NONE 
+BLACK NONE NONE RED 
+BLACK NONE NONE RED 
+NONE NONE NONE RED 
+BLACK NONE NONE NONE 
+NONE NONE NONE RED 
+
